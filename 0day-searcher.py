@@ -1,12 +1,12 @@
 import os
 import sys
+import platform
 import requests as req
 from bs4 import BeautifulSoup
 from datetime import datetime
-from termcolor import colored
 
-os.system('color')
-
+if platform.system() == "Windows":
+	os.system('color')
 
 def banner(total):
 	print(r'''
@@ -19,7 +19,7 @@ def banner(total):
               /___/                                          
                         0day.searcher
     [ Github  ] https://github.com/validverify/0day.searcher
-    [ Version ] Version 1.0  @  validverify
+    [ Version ] Version 1.5  @  validverify
     [ Date  ] ''' + str(datetime.now().strftime("%Y/%m/%d %H:%M:%S")) + '''
     [ DB records ] 0day.today -> ''' + str(total) + '''
 	''')
@@ -136,6 +136,10 @@ try:
 	filt = []
 	C = False
 	F = False
+
+	if len(sys.argv) <= 1:
+		print("[ERROR] NO_SEARCH_ARGUMENT! Fix: Enter search query.")
+		exit()
 
 	for i in range(len(sys.argv)):
 		if i == 0:
