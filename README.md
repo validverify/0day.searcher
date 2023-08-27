@@ -45,14 +45,15 @@ verify - Exploit's status of verification.
 author - Just author of exploit.
 
 > [!WARNING]
-> First step P.S. Specifically:
+> First step, specifically:
 > 
-> \[INFO\](0day.today) Creating session and making request...~~~.
+> "Creating session and making request..."
 >
-> Can take a while, it's all depends on you internet speed!
+> can take a while, it's all depends on you internet connection speed!
 
-                      2023 year
+
 ## Changelog
 ### Version 1.5
 #### Bug Fix
+#### New interface
 ### Version 1.0 Alpha
