@@ -1,6 +1,6 @@
 # 0day.searcher
 
-Simple and comfortable to use search from [0day today](https://0day.today/) website.
+Simple and comfortable to use search from 0day today.
 
 ## Installation
 
@@ -30,13 +30,13 @@ date - Date of creation.
 
 name - Name and small description of exploit.
 
-link - Link to exploit(Need to add befor: https://0day.today/).
+link - Link to exploit(Need to add domain link befor).
 
 platform - For which platform exploit created.
 
 risk - Risk level for victim system.
 
-download - Link to download exploit(Need to add befor: https://0day.today/).
+download - Link to download exploit(Need to add domain link befor).
 
 CVE - CVE id(If able).
 
