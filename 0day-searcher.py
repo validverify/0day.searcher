@@ -19,7 +19,7 @@ def banner(total):
               /___/                                          
                         0day.searcher
     [ Github  ] https://github.com/validverify/0day.searcher
-    [ Version ] Version 1.5  @  validverify
+    [ Version ] Version 1.5 $$$ By validverify
     [ Date  ] ''' + str(datetime.now().strftime("%Y/%m/%d %H:%M:%S")) + '''
     [ DB records ] 0day.today -> ''' + str(total) + '''
 	''')
